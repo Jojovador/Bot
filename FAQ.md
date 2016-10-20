@@ -1,5 +1,3 @@
-# FAQ
-
 This is the page for Frequently Asked Questions. Please note this page may not contain all questions present on the #FAQ channel on LewdBot's guild.
 
 ---
