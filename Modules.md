@@ -1,5 +1,3 @@
-# Modules
-
 Modules are blocks of code packed into external "plug-ins" that work on a guild-basis, providing new features for guild owners and allowing them to completely control the behavior of LewdBot on their servers.
 
 ### List of Modules
