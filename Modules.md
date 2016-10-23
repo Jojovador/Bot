@@ -10,7 +10,7 @@ Modules are blocks of code packed into external "plug-ins" that work on a guild-
 ### Settings
 Settings are variables present on modules that users can change to customize how the module behaves. (For example translating success messages).
 
-There currently are 4 types of variables:
+There are currently 4 types of variables:
 
 | Name    | Description                     |
 |---------|---------------------------------|
