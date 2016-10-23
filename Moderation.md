@@ -10,6 +10,7 @@ Current list of features available on this Module.
 | Ban        | Bans a user with given (or not) reason               | Admin   |
 
 ## Settings
+List of settings that are added by this module.
 
 **BANMESSAGEDM**<br>
 &nbsp; **Description**: The ban message sent to the user when he gets banned.<br>
