@@ -6,10 +6,10 @@ Current list of features available on this Module.
 * Prune command (up to 400 messages at a time and supports tagging users [Also supports silent mode]).
 
 ## Commands
-| Command      | Description                                                           | Rank    |
-|--------------|-----------------------------------------------------------------------|---------|
-| Ban          | Bans a user with given (or not) reason and supports clearing messages | Admin   |
-| Prune/Censor | Clears the chat history (Up to 400 messages) and supports filters     | Admin   |
+| Command      | Description                                                       | Rank  |
+|--------------|-------------------------------------------------------------------|-------|
+| Ban          | Bans a user with given (or not) + optional deleting               | Admin |
+| Prune/Censor | Clears the chat history (Up to 400 messages) and supports filters | Admin |
 
 ## Settings
 List of settings that are added by this module.
