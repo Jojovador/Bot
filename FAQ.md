@@ -14,7 +14,7 @@ This is the page for Frequently Asked Questions. Please note this page may not c
 
 ---
 ### Why won't music commands work?
-**A**: First, make sure the Module is enabled (`@LewdBot modules status Music`), then, make sure you are using the right command (It's `lm` not `im`).
+**A**: First, make sure the Module is enabled (`@LewdBot modules Music`), then, make sure you are using the right command (It's `lm` not `im`).
 
 ---
 ### What is the prefix?
