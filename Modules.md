@@ -19,7 +19,7 @@ There are currently 4 types of variables:
 | Double  | Numbers that _are_ fractional   |
 | Boolean | Yes/No (true/false) values      |
 
-To change such variables, you need to use the _set_ subcommand on the module command, for Example:<br>
+To change such variables, you need to use the _set_ subcommand on the module command, for Example:
 `@LewdBot modules set Music CHATENABLED false`
 
 [moderation]: https://github.com/Fabricio20/LewdWiki/wiki/Moderation
