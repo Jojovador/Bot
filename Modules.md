@@ -7,3 +7,17 @@ Modules are blocks of code packed into external "plug-ins" that work on a guild-
 | NSFW       | Provides NSFW content (ExHentai/E-Hentai/R34)        | Enabled | Link      |
 | Music      | Provides the ability to play music on voice channels | Enabled | Link      |
 
+### Settings
+Settings are variables present on modules that users can change to customize how the module behaves. (For example translating success messages).
+
+There currently are 4 types of variables:
+
+| Name    | Description                     |
+|---------|---------------------------------|
+| String  | Text, no real restrictions      |
+| Integer | Numbers that are not fractional |
+| Double  | Numbers that _are_ fractional   |
+| Boolean | Yes/No (true/false) values      |
+
+To change such variables, you need to use the _set_ subcommand on the module command, for Example:<br>
+`@LewdBot modules set Music CHATENABLED false`
