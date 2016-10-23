@@ -12,7 +12,7 @@ Current list of features available on this Module.
 | Prune/Censor | Clears the chat history (Up to 400 messages) and supports filters | Admin |
 
 ## Settings
-List of settings that are added by this module.
+List of [settings](https://github.com/Fabricio20/LewdWiki/wiki/Modules#settings) that are added by this module.
 
 **BANMESSAGEDM**<br>
 &nbsp; **Description**: The ban message sent to the user when he gets banned.<br>
