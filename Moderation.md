@@ -3,11 +3,13 @@ Moderation is a [Module](https://github.com/Fabricio20/LewdWiki/wiki/Modules) th
 ## Features
 Current list of features available on this Module.
 * Ban command (with Reason, Option to clear messages and to make a Silent ban).
+* Prune command (up to 400 messages at a time and supports tagging users [Also supports silent mode]).
 
 ## Commands
-| Command    | Description                                          | Rank    |
-|------------|------------------------------------------------------|---------|
-| Ban        | Bans a user with given (or not) reason               | Admin   |
+| Command      | Description                                                           | Rank    |
+|--------------|-----------------------------------------------------------------------|---------|
+| Ban          | Bans a user with given (or not) reason and supports clearing messages | Admin   |
+| Prune/Censor | Clears the chat history (Up to 400 messages) and supports filters     | Admin   |
 
 ## Settings
 List of settings that are added by this module.
@@ -21,5 +23,11 @@ List of settings that are added by this module.
 **BANMESSAGE**<br>
 &nbsp; **Description**: The ban message sent to the chat when someone gets banned.<br>
 &nbsp; **Default**: ``**${User}** was banned from the server by `${Admin}`. **Reason**: ${Message}``<br>
+&nbsp; **Modifiable**: Yes<br>
+&nbsp; **Type**: String (Text)
+
+**PRUNEMESSAGE**<br>
+&nbsp; **Description**: The message sent to the chat when a prune command is executed.<br>
+&nbsp; **Default**: ``Deleted `${Messages}` Messages.``<br>
 &nbsp; **Modifiable**: Yes<br>
 &nbsp; **Type**: String (Text)
