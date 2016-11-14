@@ -2,6 +2,7 @@
 * [Home][home]
 * [Modules][modules]
 * [FAQ][faq]
+* [Commands][commands]
 
 # Modules
 * [Moderation][moderation]
@@ -10,3 +11,4 @@
 [modules]: https://github.com/Fabricio20/LewdWiki/wiki/Modules
 [faq]: https://github.com/Fabricio20/LewdWiki/wiki/FAQ
 [moderation]: https://github.com/Fabricio20/LewdWiki/wiki/Moderation
+[commands]: https://github.com/Fabricio20/LewdWiki/wiki#commands
