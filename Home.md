@@ -6,9 +6,5 @@ List of commands currently available and their respective modules/descriptions.
 
 | Command/Aliases | Description                                        | Module  |
 |-----------------|----------------------------------------------------|---------|
-| Admins          | Manages LewdBot Admins, adding or removing them.   | LewdBot |
-| IgnoreChannel   | Manages Ignored channels, adding or removing them. | LewdBot |
-| Manual          | Searches the manual for help.                      | LewdBot |
-| Module          | Manages modules, enabling or disabling them.       | LewdBot |
-| Setup           | Starts a quick setup. (Can be ran at any time)     | LewdBot |
-| Status          | Shows the bot status.                              | LewdBot |
+| Help            | Displays a help message                            | LewdBot |
+| Ignore          | Manages ignored channels (pls use from non-ignored channel)| LewdBot |
