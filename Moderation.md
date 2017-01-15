@@ -3,7 +3,9 @@ Moderation is a [Module](https://github.com/Fabricio20/LewdWiki/wiki/Modules) th
 ## Features
 Current list of features available on this Module.
 * Ban command (with Reason, Option to clear messages and to make a Silent ban).
-* Prune command (up to 400 messages at a time and supports tagging users [Also supports silent mode]).
+* Prune command (Supports tagging users [Also supports silent mode]).
+* Logging (Joins/Leaves/Bans/Errors etc..).
+* Auto-Registration System (Auto add roles to users when they type something on a specific channel).
 
 ## Commands
 | Command      | Description                                                       | Rank  |
