@@ -10,6 +10,8 @@ Current list of features available on this Module.
 |--------------|-------------------------------------------------------------------|-------|
 | Ban          | Bans a user with given (or not) + optional deleting               | Admin |
 | Prune/Censor | Clears the chat history (Up to 400 messages) and supports filters | Admin |
+| Logs         | Enables Logging (Joins/Leaves/Bans/LewdErrors)                    | Admin |
+| Register     | Configures an auto-registration system                            | Admin |
 
 ## Settings
 List of [settings](https://github.com/Fabricio20/LewdWiki/wiki/Modules#settings) that are added by this module.
