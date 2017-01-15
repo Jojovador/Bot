@@ -3,6 +3,7 @@ Here you will be able to find information on LewdBot-related things and how to u
 
 ## Commands
 List of commands currently available and their respective modules/descriptions.
+Ps: [The List on my website](https://notfab.net/LewdBot) Will always be more updated.
 
 | Command/Aliases | Description                                                | Module  |
 |-----------------|------------------------------------------------------------|---------|
