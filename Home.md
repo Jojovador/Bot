@@ -17,9 +17,14 @@ Ps: [The list on my website](https://notfab.net/LewdBot) will always be more upd
 | Shard           | Shows information about the current shard (Session) your guild is on, useful for reporting problems | LewdBot |
 | Status          | Shows some status about LewdBot (Like uptime, guilds, etc..) | LewdBot |
 | Ban             | Bans a user with a given reason                            | Moderation |
+| Color           | Color preview and changing of role colors using HEX        | Moderation |
 | Lock/Unlock     | Locks/Unlocks the current or tagged channels (Blocks @everyone from speaking) | Moderation |
 | Logs            | Configures the Logging system with an interactive setup    | Moderation |
 | Prune/Censor    | Allows you to prune/delete messages from the chat history  | Moderation |
 | Register        | 	Configures an auto-registration system for your server with an interactive setup | Moderation |
 | Music/Lm/Im     | Music features! - Has a lot of subcommands                 | Music |
 | R34/Hentai      | Searches and sends images from R34 on the chat             | NSFW |
+| Flip            | Flips a coin                                               | Fun     |
+| Roll            | Rolls a dice                                               | Fun     |
+| Calc            | Calculates an expression                                   | Fun     |
+| Define          | Defines something (from Urban Dictionary)                  | Fun     |
