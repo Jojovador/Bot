@@ -6,7 +6,8 @@ Modules are blocks of code packed into external "plug-ins" that work on a guild-
 | Moderation | Provides Moderation tools (Like ban, logs, etc..)    | Enabled | [Moderation][moderation] |
 | NSFW       | Provides NSFW content (ExHentai/E-Hentai/R34)        | Enabled | Link                     |
 | Music      | Provides the ability to play music on voice channels | Enabled | Link                     |
-| Connection | Connects LewdBot to other services (Mc, RSS, Etc..)  | Enabled | Link
+| Connection | Connects LewdBot to other services (Mc, RSS, Etc..)  | Enabled | Link                     |
+| Fun        | Adds a variety of fun commands (roll, flip, calc)... | Enabled | Link                     |
 
 ### Settings
 Settings are variables present on modules that users can change to customize how the module behaves. (For example translating success messages).
