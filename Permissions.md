@@ -23,7 +23,7 @@ With the `get` subcommand you can get a list of permissions a role has and their
 !perms add ROLENAME PERMISSIONAME
 !perms add ROLENAME PERMISSIONAME PERMISSIONAME ...
 ```
-With the `add` subcommand you can add a permission or an array of permissions to a role.
+With the `add` subcommand you can add (allow) a permission or an array of permissions to a role.
 
 ### Removing permissions from a role
 ```java
