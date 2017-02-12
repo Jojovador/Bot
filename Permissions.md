@@ -47,7 +47,7 @@ With the `set` subcommand you can set the status of a permission on a role.
 With the `delete` subcommand you can revoke a permission or an array of permissions from a role.<br>
 **Important**: The difference here (from remove) is that you are not negating the permission, instead, cleaning it out of the list of permissions (setting it's value to the default).
 
-### Clearing all the permissions from a role.
+### Clearing all the permissions from a role
 ```java
 !perms clear ROLENAME
 ```
