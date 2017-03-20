@@ -14,24 +14,26 @@ Current list of features available on this Module.
 | Prune/Censor | Clears the chat history (Up to 400 messages) and supports filters | Admin |
 | Logs         | Enables Logging (Joins/Leaves/Bans/LewdErrors)                    | Admin |
 | Register     | Configures an auto-registration system                            | Admin |
+<hr>
 
-## Settings
-List of [settings](https://github.com/Fabricio20/LewdWiki/wiki/Modules#settings) that are added by this module.
-
-**BANMESSAGEDM**<br>
-&nbsp; **Description**: The ban message sent to the user when he gets banned.<br>
-&nbsp; **Default**: ``You were banned from `${Guild}` by `${Admin}`. **Reason**: ${Message}``<br>
-&nbsp; **Modifiable**: Yes<br>
-&nbsp; **Type**: String (Text)
-
-**BANMESSAGE**<br>
-&nbsp; **Description**: The ban message sent to the chat when someone gets banned.<br>
-&nbsp; **Default**: ``**${User}** was banned from the server by `${Admin}`. **Reason**: ${Message}``<br>
-&nbsp; **Modifiable**: Yes<br>
-&nbsp; **Type**: String (Text)
-
-**PRUNEMESSAGE**<br>
-&nbsp; **Description**: The message sent to the chat when a prune command is executed.<br>
-&nbsp; **Default**: ``Deleted `${Messages}` Messages.``<br>
-&nbsp; **Modifiable**: Yes<br>
-&nbsp; **Type**: String (Text)
+### Welcome
+**Description**: Provides a way to set a welcome message for new users.<br>
+**Subcommands**: 
+```java
+- set     : Sets the message to send.
+- channel : Sets the channel to send the message in.
+- dm      : Enables/Disable sending the message in dms.
+```
+**Tutorials**:<br>
+A) Setting the channel #welcome as the greeting channel.
+```java
+@LewdBot welcome channel #welcome
+```
+B) Setting the greeting message.
+```java
+@LewdBot welcome set Welcome {USER} to our server!
+```
+C) Enabling DM mode (Sends the message on DMs).
+```java
+@LewdBot welcome dm true
+```
