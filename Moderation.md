@@ -34,7 +34,7 @@ A) Setting the channel #welcome as the greeting channel.
 ```
 B) Setting the greeting message.
 ```java
-@LewdBot welcome set Welcome {USER} to our server!
+@LewdBot welcome set Welcome {USER} to {GUILD}!
 ```
 C) Enabling DM mode (Sends the message on DMs).
 ```java
