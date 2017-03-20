@@ -20,6 +20,9 @@ Current list of features available on this Module.
 **Description**: Provides a way to set a welcome message for new users.<br>
 **Subcommands**: 
 ```java
+- enable  : Enables this feature.
+- disable : Disables this feature.
+- show    : Shows your current settings for this feature.
 - set     : Sets the message to send.
 - channel : Sets the channel to send the message in.
 - dm      : Enables/Disable sending the message in dms.
