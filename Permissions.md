@@ -1,3 +1,6 @@
+# Under Development
+The information provided below is outdated as of 23th of March, 2017, It is being re-made.
+
 ## Introduction
 As of LewdBot `5.2_192` a new permission system was introduced, it's purpose is to allow server owners to permit or deny users from using certain features on a per-role basis.
 
