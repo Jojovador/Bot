@@ -65,3 +65,10 @@ MOD_REGISTER  - For the color command (Default: False)
 
 NSFW_R34      - For the r34 command (Default: True)
 ```
+## Groups of Permissions
+These are used so you don't need to type all permissions.
+```java
+MODERATE     - All permissions starting with MOD_
+MANAGE_MUSIC - All permissions starting with MUSIC_
+LEWD         - All permissions starting with NSFW_
+```
