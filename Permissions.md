@@ -1,15 +1,7 @@
-# Under Development
-The information provided below is outdated as of 23th of March, 2017, It is being re-made.
-
 ## Introduction
 As of LewdBot `5.2_192` a new permission system was introduced, it's purpose is to allow server owners to permit or deny users from using certain features on a per-role basis.
 
 **Important**: LewdBot has a built-in override system for the permissions, Guild Owners and LewdBot-Admins will be exempt from these permission checks.
-
-**Names used on this page and their special meanings**:<br>
-* Allow  -> Allowing a permission, by setting it's status to true.
-* Deny   -> Denying a permission, by setting it's status to false.
-* Revoke -> Removing a permission by deleting it from the list of permissions.
 
 ## Commands and Usage
 The new permissions system can be configured by using a set of subcommands. Below are a series of examples on how to use those subcommands.<br>
@@ -21,61 +13,55 @@ These examples assume the prefix on your guild is `!`, if this isn't the case, a
 ```
 With the `get` subcommand you can get a list of permissions a role has and their statuses (denied/allowed).
 
-### Adding permissions to a role
+### Resetting a role's permission
 ```java
-!perms add ROLENAME PERMISSIONAME
-!perms add ROLENAME PERMISSIONAME PERMISSIONAME ...
+!perms reset ROLENAME
 ```
-With the `add` subcommand you can add (allow) a permission or an array of permissions to a role.
+With the `reset` subcommand you can reset a role's set of permissions (remove all of them) without having to do perm by perm.
 
-### Removing permissions from a role
+### Clearing a role of a permission
 ```java
-!perms rem ROLENAME PERMISSIONAME
-!perms rem ROLENAME PERMISSIONAME PERMISSIONAME ...
+!perms clear ROLENAME PERMISSION
 ```
-With the `remove` subcommand you can remove (deny) a permission or an array of permissions from a role.
+With the `clear` subcommand you can remove the state of a permission from a role (goes back to default value).
 
-### Setting a role's permission status
+### Setting a permission for a role
 ```java
-!perms set ROLENAME PERMISSIONAME true
-!perms set ROLENAME PERMISSIONAME false
+!perms set ROLENAME PERMISSION VALUE
 ```
-With the `set` subcommand you can set the status of a permission on a role.
-
-### Deleting a role's permission
-```java
-!perms del ROLENAME PERMISSIONAME
-!perms del ROLENAME PERMISSIONAME PERMISSIONAME ...
-```
-With the `delete` subcommand you can revoke a permission or an array of permissions from a role.<br>
-**Important**: The difference here (from remove) is that you are not negating the permission, instead, cleaning it out of the list of permissions (setting it's value to the default).
-
-### Clearing all the permissions from a role
-```java
-!perms clear ROLENAME
-```
-With the `clear` subcommand you can reset all the permissions (revoke but not deny) from a role.
-
-## Examples
-Below are a series of examples aimed to teach you how to setup the new permissions system.<br>
-These examples assume the prefix on your guild is `!`, if this isn't the case, adapt your commands as needed.<br>
-
-### Example 1 - Music only for DJs
-In this example we will set up permissions for a role called `DJ`, allowing it to fully manage music features. We are also going to remove music permissions from the default role.<br>
-**Warning**: Before starting, make sure you have a role called `DJ`.
-
-```java
-!perms add DJ MANAGE_MUSIC
-```
-With this command, we add the MANAGE_MUSIC permission group to the DJ role, that way we don't have to type all music permissions.<br>
-
-```java
-!perms rem everyone MANAGE_MUSIC
-```
-With this command we remove all music-related permissions from the `everyone` role (Default role).
-
-And that's it, now the role `DJ` is the only one who can use music features, you can now safely add that role to your fellow DJs and they will be able to manage your guild's music.
+This is the most important command, with it you will be able to set the state of a permission for a role, which means allow it or deny it (If you want to reset the state to default, check the clear command ^).<br>
+**PS**: Value should be either `allow` or `deny`;
 
 ## List of Permissions
+```java
+MANAGE_PERMISSIONS - To manage the permissions for all roles (use the !perms command)
 
-//TODO
+MUSIC_CONNECT - To summon LewdBot
+MUSIC_PLAY    - To make LewdBot play
+MUSIC_PAUSE   - To make LewdBot pause
+MUSIC_ADD     - To add a song to the queue
+MUSIC_REMOVE  - To remove a song from the queue
+MUSIC_CLEAR   - To clear the queue
+MUSIC_LOCK    - To lock the queue [Future]
+MUSIC_SHUFFLE - To shuffle the playlist
+MUSIC_LIST    - To list the musics in the queue
+MUSIC_VIP     - To toggle vip mode
+MUSIC_CHAT    - To set the music chat
+
+MOD_KICK      - For kicking users (Default: False)
+MOD_BAN       - For banning users (Default: False)
+MOD_PREFIX    - For changing the prefix (Default: False)
+MOD_SETUP     - For using the setup (Default: False)
+MOD_LOGS      - For managing logs (Default: False)
+MOD_RAID      - For activating raid mode (Default: False) [Future]
+MOD_SENDINVITE - For sending invites (Default: False) [Future]
+MOD_WELCOME   - For the welcome command  (Default: False)
+MOD_MODULES   - For the modules command (Default: False)
+MOD_COLOR     - For the color command (Default: False)
+MOD_IGNORE    - For the ignore command (Default: False)
+MOD_PRUNE     - For the prune command (Default: False)
+MOD_LOCK      - For the Lock command (Default: False)
+MOD_REGISTER  - For the color command (Default: False)
+
+NSFW_R34      - For the r34 command (Default: True)
+```
