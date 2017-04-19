@@ -34,4 +34,9 @@ This is the page for Frequently Asked Questions. Please note this page may not c
 
 ---
 ### Is there a way I can support you?
-**A**: Yes, I accept donations on [Paypal](http://short.notfab.net/donate) and monthly donations on [Patreon](https://www.patreon.com/Fabricio20).
+**A**: Yes, and now with even more ways!
+
+Monthly via Patreon: https://patreon.com/Fabricio20
+One-Timer with Paypal: fabricio20r@hotmail.com
+or BitCoin: 1LgWTH7FVd9KG4jQ3Mq8nFQjFbNby8ZSXB
+or even Ethereum: 0x1838E3d7Eaa594324acFC14e90b86a67F91e1482
