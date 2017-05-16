@@ -11,6 +11,7 @@ Users will not be banned if:
 - They are the guild owner
 - They have the `BAN_MEMBERS` permission
 - They have the `MOD_BAN` LewdBot permission
+- They are LewdBot
 
 ### Examples:
 
