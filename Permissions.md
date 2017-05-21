@@ -63,6 +63,13 @@ MOD_PRUNE     - For the prune command (Default: False)
 MOD_LOCK      - For the Lock command (Default: False)
 MOD_REGISTER  - For the color command (Default: False)
 
+FUN_CALC      - For the calc command (Default: True)
+FUN_CHAT      - For the chat command (Default: True)
+FUN_DEFINE    - For the define command (Default: True)
+FUN_FLIP      - For the flip command (Default: True)
+FUN_ROLL      - For the roll command (Default: True)
+FUN_PROFILE   - For the profile command (Default: True)
+
 NSFW_R34      - For the r34 command (Default: True)
 ```
 ## Groups of Permissions
@@ -71,4 +78,5 @@ These are used so you don't need to type all permissions.
 MODERATE     - All permissions starting with MOD_
 MANAGE_MUSIC - All permissions starting with MUSIC_
 LEWD         - All permissions starting with NSFW_
+FUN          - All permissions starting with FUN_
 ```
