@@ -71,6 +71,7 @@ FUN_ROLL      - For the roll command (Default: True)
 FUN_PROFILE   - For the profile command (Default: True)
 
 NSFW_R34      - For the r34 command (Default: True)
+NSFW_HENTAI   - For the hentai command (Default: true)
 ```
 ## Groups of Permissions
 These are used so you don't need to type all permissions.
